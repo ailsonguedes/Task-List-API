@@ -53,7 +53,7 @@ Esta é uma API simples desenvolvida em **Flask** para gerenciar um cadastro de 
 }
 
 ### Excluir uma tarefa por ID
-- DELETE /api/tasks/1
+- DELETE /lisad/1
 
 
 ## 💻 Como Executar o Código
