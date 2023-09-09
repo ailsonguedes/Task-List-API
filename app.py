@@ -46,8 +46,8 @@ def idAlt(task_id):
     elif request.method == 'PUT': 
         taskData = request.get_json()       
         taskData = json.loads(request.data)
-        if 'tarefa' in taskData:
-            task['tarefa'] = taskData['tarefa']
+        if 'status' in taskData:
+            task['status'] = taskData['status']
             return jsonify({"status": "Item atualizado com sucesso"}), 200     
         else:
             pass
