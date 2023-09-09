@@ -38,8 +38,7 @@ Esta é uma API simples desenvolvida em **Flask** para gerenciar um cadastro de 
 - GET /lisad/1
 
 ### Alterar o status de uma tarefa por ID
-PUT /lisad/1
-Content-Type: application/json
+- PUT /lisad/1
 
 {
     "status": "Concluída"
@@ -54,7 +53,7 @@ Content-Type: application/json
 }
 
 ### Excluir uma tarefa por ID
-DELETE /api/tasks/1
+- DELETE /api/tasks/1
 
 
 ## 💻 Como Executar o Código
