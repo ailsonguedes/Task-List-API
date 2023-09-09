@@ -24,7 +24,7 @@ Esta é uma API simples desenvolvida em **Flask** para gerenciar um cadastro de 
 - `PUT /lisad/{id}/`: Altera o status de uma tarefa específica pelo ID.
 - `DELETE /lisad/{id}/`: Exclui uma tarefa específica pelo ID.
 
-## Exemplos de Requisições
+## 📜 Exemplos de Requisições
 
 ### Listar todas as tarefas
 
